@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantDeveloper.Data", "QuantDeveloper.Data\QuantDeveloper.Data.csproj", "{8D802456-175C-4D45-A5B4-D87E459CA72A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantDeveloper.Business", "QuantDeveloper.Business\QuantDeveloper.Business.csproj", "{19E26D11-1C4D-4B89-BC68-4BA7034A62E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents.Support", "Documents.Support", "{886DF61F-E148-4974-8B60-91E2CBDB2021}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Lenovo\Downloads\QF Question Paper.pdf = C:\Users\Lenovo\Downloads\QF Question Paper.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantDeveloper.Api", "QuantDeveloper.Api\QuantDeveloper.Api.csproj", "{59C1EC4E-77CA-44BF-88E5-5A2692B0DBE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantDeveloper.Tests", "QuantDeveloper.Tests\QuantDeveloper.Tests.csproj", "{110A0E70-D868-4A1C-8752-51E57D33E1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantDeveloper.Console", "QuantDeveloper.Console\QuantDeveloper.Console.csproj", "{77EED441-9C80-4BE5-A8E3-09FF3534148A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL scripts", "SQL scripts", "{FC5A0637-373C-4C38-890D-837CFB9B0986}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Create_User_Table v1.sql = ..\..\..\..\Create_User_Table v1.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D802456-175C-4D45-A5B4-D87E459CA72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D802456-175C-4D45-A5B4-D87E459CA72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D802456-175C-4D45-A5B4-D87E459CA72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D802456-175C-4D45-A5B4-D87E459CA72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19E26D11-1C4D-4B89-BC68-4BA7034A62E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E26D11-1C4D-4B89-BC68-4BA7034A62E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E26D11-1C4D-4B89-BC68-4BA7034A62E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E26D11-1C4D-4B89-BC68-4BA7034A62E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C1EC4E-77CA-44BF-88E5-5A2692B0DBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C1EC4E-77CA-44BF-88E5-5A2692B0DBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C1EC4E-77CA-44BF-88E5-5A2692B0DBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C1EC4E-77CA-44BF-88E5-5A2692B0DBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{110A0E70-D868-4A1C-8752-51E57D33E1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{110A0E70-D868-4A1C-8752-51E57D33E1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{110A0E70-D868-4A1C-8752-51E57D33E1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{110A0E70-D868-4A1C-8752-51E57D33E1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EED441-9C80-4BE5-A8E3-09FF3534148A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EED441-9C80-4BE5-A8E3-09FF3534148A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EED441-9C80-4BE5-A8E3-09FF3534148A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EED441-9C80-4BE5-A8E3-09FF3534148A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BB95C7B6-A4EE-4430-B011-44DFDCF3C896}
+	EndGlobalSection
+EndGlobal
