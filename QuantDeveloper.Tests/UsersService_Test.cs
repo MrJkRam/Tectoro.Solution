@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace QuantDeveloper.Tests
 {
     [TestClass]
-    public class UsersService_Tests
+    public class UsersService_Test
     {
         [TestMethod]
         [Description("Can Successfully Retrieve Users list via API")]

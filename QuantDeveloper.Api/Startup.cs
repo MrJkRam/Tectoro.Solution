@@ -27,8 +27,14 @@ namespace QuantDeveloper.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            //services.Configure<MvcOptions>(options =>
+            //{           
+            //    options.MaxValidationDepth = 2;
+            //    options.EnableEndpointRouting = false;
+            //});
 
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            
             services.AddBusinessLibraries();
         }
 
@@ -41,6 +47,7 @@ namespace QuantDeveloper.Api
             }
 
             app.UseMvc();
+
         }
     }
 }

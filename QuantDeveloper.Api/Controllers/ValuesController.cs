@@ -4,15 +4,16 @@ using System.Linq;
 using System.Security.Policy;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using QuantDeveloper.Api;
 
 namespace QuantDeveloper.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [CustomExceptionFilter]
     public class ValuesController : ControllerBase
     {
-
-        
+                
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()

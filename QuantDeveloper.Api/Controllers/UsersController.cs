@@ -14,6 +14,7 @@ namespace QuantDeveloper.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [CustomExceptionFilter]
     public class UsersController : ControllerBase
     {
         private readonly IUsersService _userService;
